@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/indir2"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="b1"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/biceps"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="b2"
+        android:text="BICEPS" />
+
+    <Button
+        android:id="@+id/arms"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="b3"
+        android:text="ARMS" />
+
+    <Button
+        android:id="@+id/legs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="b4"
+        android:text="LEGS" />
+</LinearLayout>
